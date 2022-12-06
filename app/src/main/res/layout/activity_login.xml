@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.LoginActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="Notes"
+        android:textColor="#d59ce0"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="395dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#ffffff"
+        android:padding="20dp"
+        android:text="邮箱"
+        android:textColor="#d3d3d3"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="395dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#ffffff"
+        android:padding="20dp"
+        android:text="密码"
+        android:textColor="#d3d3d3"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <Button
+            android:id="@+id/login_register"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#ffffff"
+            android:gravity="center_vertical"
+            android:paddingStart="210dp"
+            android:text="没有账号？点此注册"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+
+        <CheckBox
+            android:id="@+id/login_remember"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:text="保存信息"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/login_submit"
+        android:layout_width="256dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#ffffff"
+        android:text="登录"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="77dp">
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/wechat"
+            android:backgroundTint="#ffffff"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/qq"
+            android:backgroundTint="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="快捷登录" />
+
+
+</LinearLayout>
+
