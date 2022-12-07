@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -64,15 +65,15 @@
             <ImageButton
                 android:layout_width="45dp"
                 android:layout_height="45dp"
-                android:background="#ffffff"
                 android:layout_marginStart="40dp"
+                android:background="#ffffff"
                 android:src="@mipmap/chexiao" />
 
             <ImageButton
                 android:layout_width="45dp"
                 android:layout_height="45dp"
-                android:background="#ffffff"
                 android:layout_marginStart="80dp"
+                android:background="#ffffff"
                 android:src="@mipmap/chexiao1" />
         </RelativeLayout>
     </LinearLayout>
@@ -94,5 +95,4 @@
             android:text="这里可编辑，在此处编辑笔记的详细内容"
             android:textSize="20sp" />
     </LinearLayout>
-
 </LinearLayout>
